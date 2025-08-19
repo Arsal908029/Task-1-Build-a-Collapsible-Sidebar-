@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-code"></i>
+                    <h2>DevDashboard</h2>
+                </div>
+                <button class="close-btn" id="closeBtn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            
+            <div class="sidebar-menu">
+                <ul>
+                    <li><a href="#"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="#"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                    <li><a href="#"><i class="fas fa-users"></i> Users</a></li>
+                    <li><a href="#"><i class="fas fa-shopping-cart"></i> Orders</a></li>
+                    <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="#"><i class="fas fa-question-circle"></i> Help</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-footer">
+                <p>&copy; 2023 DevDashboard</p>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="header">
+                <button class="toggle-btn" id="toggleBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <h1>Dashboard Overview</h1>
+                <div class="user-profile">
+                    <img src="https://ui-avatars.com/api/?name=John+Doe&background=random" alt="User">
+                </div>
+            </div>
+            
+            <div class="cards">
+                <div class="card">
+                    <h3>Website Traffic</h3>
+                    <p>Analyze your website traffic and user behavior in real-time.</p>
+                </div>
+                <div class="card">
+                    <h3>Revenue</h3>
+                    <p>Track sales and revenue metrics for your business.</p>
+                </div>
+                <div class="card">
+                    <h3>User Activity</h3>
+                    <p>Monitor user engagement and activity across your platform.</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Recent Updates</h3>
+                <p>Your dashboard has been updated with new features and improvements. You can now customize the layout and add widgets according to your preferences.</p>
+                <p>We've also improved mobile responsiveness for better experience on all devices.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
